@@ -9,7 +9,7 @@ body {
     background-color: #000;
 }
 .sign-in-container {
-    position: absolute;
+    position: fixed;
     top: 10%;
     right: 5%;
     box-shadow: -15px 15px 4px rgba(0, 0, 0, 0.4);
@@ -18,13 +18,13 @@ body {
     width: 618px;
     height: 734px;
     padding: 20px;
-    
 }
 .sign-in-container h1 {
     text-align: center;
     font-size: 50px;
     font-weight: 900;
     font-family: Poppins;
+    position: fixed;
 }
 .sign-in-container h2 {
     text-align: center;
@@ -32,9 +32,10 @@ body {
     font-weight: 600;
     margin-bottom: 30px;
     font-family: Poppins;
+    position: fixed;
 }
 .sign-in-container input[type="text"] {
-    position: absolute;
+    position: fixed;
     top: 35%;
     left: 10%;
     width: 75%;
@@ -46,7 +47,7 @@ body {
 }
 
 .sign-in-container input[type="password"]{
-    position: absolute;
+    position: fixed;
     top: 45%;
     left: 10%;
     width: 75%;
@@ -57,7 +58,7 @@ body {
     font-size: 18px;
 }
 .sign-in-container button {
-    position: absolute;
+    position: fixed;
     top: 60%;
     left: 10%;
     width: 80%;
@@ -76,7 +77,7 @@ body {
     background-color: #efbf04;
 }
 .forgot-password {
-    position: absolute;
+    position: fixed;
     top: 55%;
     left: 6%;
     width: 70%;
@@ -87,7 +88,7 @@ body {
     font-family: Inter;
 }
 .front-design {
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 5%;
     width: calc(50% - 309px);
@@ -99,7 +100,7 @@ body {
     transform: translateY(-50%);
 }
 .home-for-a {
-    position: absolute;
+    position: fixed;
     top: 100%;
     left: 30%;
     transform: translateY(-50%);
